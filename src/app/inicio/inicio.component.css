@@ -1,0 +1,17 @@
+p{
+ text-align: justify;
+ padding-bottom: 10px;
+}
+
+.imgArticle{
+    width:400px;
+    margin-top: 1em;
+    float: left;
+    margin-right:1em;
+    border-radius: 20px;
+}
+
+h2{
+    padding: 12px 0 12px 0;
+    text-align: center;
+}

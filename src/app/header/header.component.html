@@ -1,0 +1,131 @@
+<div class="navegacion">
+  <!--navegation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="/"><img src="./assets/img/portada.jpeg " alt="logo-edison" /></a>
+      <div class="container-fluid">
+        <div  class="nav justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link about" routerLink="servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="contactos"> Contacto </a>
+            </li>
+            <li class="nav-item">
+              <button
+              id="iniciarModal"
+                class="nav-link "
+                data-bs-toggle="modal"
+                data-bs-target="#ingresar"
+                data-bs-whatever="@mdo"
+                >Ingresar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Modal para ingresar al aplicativo  -->
+<div
+  class="modal fade"
+  id="ingresar"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-sm modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+        <!-- <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button> -->
+      </div>
+      <div class="modal-body">
+        <form class="cad-body">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nombre:</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Contraseña:</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="********"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+          <i class="fas fa-times"></i>
+        </button>
+        <button type="button" class="btn btn-success">
+          <i class="fas fa-sign-in-alt"> Ingresar</i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal para nuevo usuario al aplicativo  -->
+
+<!-- <div
+  class="modal fade"
+  id="registrarse"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registrarse</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Nombre:</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Correo:</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label"
+              >Contraseña:</label
+            >
+            <input type="text" class="form-control" placeholder="********" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+          <i class="fas fa-times"></i>
+        </button>
+        <button type="button" class="btn btn-success">
+          <i class="fas fa-sign-in-alt"> Registrarse</i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div> -->

@@ -1,0 +1,52 @@
+section {
+  display: flex;
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+
+article {
+  width: 40%;
+  margin-right: 20px;
+  /* border: 1px solid black;  */
+  margin-bottom: 2px ; 
+}
+
+div {
+  width: 90%;
+  text-align: justify;
+  margin-left: 16px;
+  /* border: 1px solid black; */
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 1em;
+}
+
+p {
+  margin-top: 1em;
+}
+img {
+  max-width: 100%;
+  /* padding: auto; */
+}
+
+.descripcionServicio{
+    width: 50%;
+    text-align: justify;
+    margin-left: 20em;
+    /* border: 1px solid black; */
+}
+
+.turismo {
+  flex-direction: row;
+}
+
+.organizadorModal{
+  width: 85.4%;
+  margin-left: 12.2em;
+}
+.modal-title{
+  text-align: center;
+}

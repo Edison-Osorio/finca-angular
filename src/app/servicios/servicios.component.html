@@ -1,0 +1,244 @@
+<!-- SECCION DE VENTAS  -->
+<h2>VENDEMOS ...</h2>
+<div class="descripcionServicio">
+  <p>
+    Nuestra finca ofrece una gran cantidad de productos 100% de aguacate...
+    ¡¡Dinos cual le gusta!!
+  </p>
+</div>
+<section>
+  <!-- Venta de aguacate -->
+  <article class="ventaAguacate">
+    <div>
+      <h2>AGUACATE</h2>
+      <img src="./assets/img/ventaAguacate/aguacate.jpeg" alt="" />
+      <p>
+        Vendemos agucate de selecionado por lo que tenemos variedades de precios
+        a los cuales puede acomodarse.
+      </p>
+      <button
+        class="btn btn-primary"
+        id="iniciarModal"
+        data-bs-toggle="modal"
+        data-bs-target="#ventaAguacate"
+        data-bs-whatever="@mdo"
+      >
+        Ver más información
+      </button>
+    </div>
+
+    <!-- MODAL INFROMACION VENTA DE AGUACATE -->
+
+    <div
+      class="modal fade organizadorModal"
+      id="ventaAguacate"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Venta de aguacate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <app-servicio-aguacate></app-servicio-aguacate>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-sign-in-alt"> Ingresar</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- VENTA DE ALMACIGO  -->
+  <article class="almacigo">
+    <div>
+      <h2>ALMACIGO</h2>
+      <img src="./assets/img/ventaAlmacigo/almacigo.jpeg" alt="" />
+      <p>
+        Tenemos un almacigo de buena calidad, el cual viene de un vivero
+        certificado con una altura de 1.820 m.s.n.m.
+      </p>
+      <button class="btn btn-primary" id="iniciarModal"
+      data-bs-toggle="modal"
+      data-bs-target="#ventaAlmacigo"
+      data-bs-whatever="@mdo">Ver mas información</button>
+    </div>
+
+<!-- MODAL DE LA INFROMACION DE LA VENTA DE ALMACIGO  -->
+
+
+<div
+class="modal fade organizadorModal"
+id="ventaAlmacigo"
+tabindex="-1"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-xl">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Venta de aguacate</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+     <app-servicio-almacigo></app-servicio-almacigo>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-danger"
+        data-bs-dismiss="modal"
+      >
+        <i class="fas fa-times"></i>
+      </button>
+      <button type="button" class="btn btn-success">
+        <i class="fas fa-sign-in-alt"> Ingresar</i>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+  </article>
+  <!-- VENTA DE PRODUCTOS DE AGUACATE  -->
+  <article>
+    <div>
+      <h2>PRODUCTOS DE AGUACATE</h2>
+      <img src="./assets/img/imgTurismo/amanecer1.jpeg" alt="imagen" />
+      <p>
+        Vendemos una amplia varidad de productos deribados del aguacate tales
+        como: cremas, helados, etc.
+        <br />
+      </p>
+      <button class="btn btn-primary"  id="iniciarModal"
+      data-bs-toggle="modal"
+      data-bs-target="#productosAguacate"
+      data-bs-whatever="@mdo">Ver mas información</button>
+    </div>
+
+    <!-- MODAL DE LA INFORMACION DE LOS PRODUCTOS DE AGUACATE  -->
+
+    <div
+    class="modal fade organizadorModal"
+    id="productosAguacate"
+    tabindex="-1"
+    aria-hidden="true"
+    >
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Venta de aguacate</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+         <app-servicio-productos-a></app-servicio-productos-a>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-bs-dismiss="modal"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <button type="button" class="btn btn-success">
+            <i class="fas fa-sign-in-alt"> Ingresar</i>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+  </article>
+</section>
+
+<!-- SECCION DE TURISMO -->
+<h2>TURISMO</h2>
+<div class="descripcionServicio">
+  <p>
+    Tenemos varios servicios de turismo en los cuales podras disfrutar de muchas
+    de las actividades tales como...
+  </p>
+</div>
+<section>
+  <article class="turismo">
+    <div>
+      <h2>TOUR COMPLETO DE TODA LA FINCA</h2>
+      <img src="./assets/img/imgTurismo/amanecer1.jpeg" alt="imagen" />
+      <p>
+        Este tour será un recorrido por toda la finca, en donde se habrán pausas
+        en distintos puntos para explicar el como y por que de cada una de las
+        cosas que encontraremos en el recorrido, como también se incluiran el
+        recorrido por la planta de tratamiento y se haran también productos
+        derivados del aguacate.
+        <br />
+        <b>¡¡¡Los Esperamos!!!</b>
+      </p>
+      <button class="btn btn-primary">Ver mas información</button>
+    </div>
+  </article>
+
+  <article class="turismo">
+    <div>
+      <h2>RECORRIDO PLANTAS DE TRATAMIENTO</h2>
+      <img src="./assets/img/imgTurismo/amanecer1.jpeg" alt="imagen" />
+      <p>
+        Brindamos un recorrido por tada nuestra planta de tratamiento del
+        aguacate, como también una charla acera de los cuidados, precausiones y
+        beneficios de cada uno de los tratamientos que realizamos en nuestra
+        finca para brindar un producto de calidad a nuestros clientes.
+        <br />
+        <br />
+        <b>¡¡¡Los Esperamos!!!</b>
+      </p>
+      <button class="btn btn-primary">Ver mas información</button>
+    </div>
+  </article>
+  <article class="turismo">
+    <div>
+      <h2>TALLER DE REALIZACION DE PRODUCTOS</h2>
+      <img src="./assets/img/imgTurismo/amanecer1.jpeg" alt="imagen" />
+      <p>
+        Daremos a conocer como es el proceso para realizar productos derivados
+        del aguacate como los es el guacamole, helados, batidos y cremas.
+        <br />
+        En esté taller seran testigos de la cantidad de maneras de utilizar el
+        aguacate y quesaras con al experiecia de realizar unos de esya ptoductos
+        por usted mismo.
+        <br />
+        <b>¡¡¡Los Esperamos!!!</b>
+      </p>
+      <button class="btn btn-primary">Ver mas información</button>
+    </div>
+  </article>
+</section>
+
+<!-- <button class="btn btn-success" (click)="turismo()">ver mas informacion</button> -->
